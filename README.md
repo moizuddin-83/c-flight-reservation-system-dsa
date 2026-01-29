@@ -27,7 +27,7 @@ For a detailed analysis of the algorithms, time complexity $O(V+E)$, and logic u
     ```
 2.  **Compile the source code:**
     ```bash
-    g++ -o flight_system 2023315_2023317_2023716_final_submission_v1.cpp
+    g++ -o flight_system main.cpp
     ```
 3.  **Run the application:**
     ```bash
@@ -41,3 +41,4 @@ For a detailed analysis of the algorithms, time complexity $O(V+E)$, and logic u
 
 
 **Submitted to:** Dr. Ahmer Rashid
+
