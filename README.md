@@ -23,7 +23,7 @@ For a detailed analysis of the algorithms, time complexity $O(V+E)$, and logic u
 ## 💻 Installation & Usage
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/moizuddin-83/c-flight-reservation-system-dsa.git](https://github.com/moizuddin-83/c-flight-reservation-system-dsa.git)
+    git clone https://github.com/moizuddin-83/c-flight-reservation-system-dsa.git
     ```
 2.  **Compile the source code:**
     ```bash
@@ -38,5 +38,6 @@ For a detailed analysis of the algorithms, time complexity $O(V+E)$, and logic u
 * **Mian Moiz Ud Din** (2023315)
 * **Tayyab Shahjehan** (2023317)
 * **Taha Shafique** (2023716)
+
 
 **Submitted to:** Dr. Ahmer Rashid
