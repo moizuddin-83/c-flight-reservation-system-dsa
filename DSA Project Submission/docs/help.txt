@@ -1,0 +1,69 @@
+===========================================================
+      FLIGHT RESERVATION SYSTEM - USER HELP GUIDE
+===========================================================
+
+Welcome to the Flight Reservation System. This application 
+simulates a real-world aviation network using advanced data 
+structures to manage flights, cities, and reservations.
+
+-----------------------------------------------------------
+1. SYSTEM OVERVIEW
+-----------------------------------------------------------
+The system is built on a Graph-based architecture where:
+- Cities are Nodes.
+- Routes are Edges.
+- Shortest paths are calculated using Breadth-First Search (BFS).
+
+Flights are managed via a custom Linked List, ensuring they 
+stay organized by departure time for better scheduling.
+
+-----------------------------------------------------------
+2. MENU NAVIGATION
+-----------------------------------------------------------
+
+Option 1: View Cities
+Displays a catalog of supported cities, their unique airport 
+codes (e.g., LHR for Lahore), and their daily flight capacity.
+
+Option 2: Reserve a Flight
+This is the core feature. 
+- Enter your Departure and Arrival cities.
+- The system will calculate the most efficient path (minimum hops).
+- If a direct flight isn't available, it will suggest a multi-leg 
+  journey and attempt to book a seat on every segment.
+
+Option 3: Display Routes
+Shows the physical connectivity of the flight network and the 
+distances (in km) between connected cities.
+
+Option 4: Show All Reservations
+Lists every active booking in the system, including passenger 
+names, flight numbers, and scheduled times.
+
+Option 5 & 6: Show Departures/Arrivals
+Filter the flight board by a specific city to see only the 
+planes leaving from or arriving at that location.
+
+Option 8: Delete a Reservation
+To cancel a booking, you must provide BOTH the correct 
+Flight Number and the Passenger Name used during reservation.
+
+-----------------------------------------------------------
+3. TROUBLESHOOTING & FAQS
+-----------------------------------------------------------
+Q: Why did my reservation fail?
+A: Reservations fail if:
+   - There are no available seats on one of the legs.
+   - There is no physical route between the cities in the graph.
+   - You typed the city name incorrectly (Case Sensitive).
+
+Q: How is the "Shortest Path" determined?
+A: The system uses BFS to find the path with the fewest number 
+   of stops (hops), not necessarily the shortest physical distance.
+
+-----------------------------------------------------------
+DEVELOPED BY:
+- Mian Moiz Ud Din (2023315)
+- Tayyab Shahjehan (2023317)
+- Taha Shafique    (2023716)
+===========================================================
